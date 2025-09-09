@@ -60,9 +60,9 @@ div {
     border-left: 0;
     border-bottom: 0;
     color: #c4c4c4;
-    >h2{
-        color: #c4c4c4;
-    }
+}
+.blue > h2 {
+    color: #c4c4c4;
 }
 
 .yellow {
@@ -90,9 +90,9 @@ footer {
     background: #000000;
     background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 255, 1) 25%, rgba(0, 102, 255, 1) 70%, rgba(0, 0, 0, 1) 100%);
     border: 5px solid #ffffff;
-    >p {
-        font-size: 20px;
-        text-align: right;
-        padding: 15px 15px 15px 0;
-    }
+}
+footer > p {
+    font-size: 20px;
+    text-align: right;
+    padding: 15px 15px 15px 0;
 }
